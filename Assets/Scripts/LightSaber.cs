@@ -19,7 +19,7 @@ public class LightSaber : MonoBehaviour
         LightSaberAnimator.ResetTrigger("Turn Light Saber OFF"); // Reset trigger
         LightSaberON = true;
 
-        audioSource.PlayOneShot(hum); //play the steady hum
+        audioSource.Play(); //play the steady hum
         audioSourceAux.PlayOneShot(powerUp); //play the powerup
     }
 
